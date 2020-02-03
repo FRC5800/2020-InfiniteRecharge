@@ -19,10 +19,10 @@ public class RobotContainer {
   private static CommandDriver runDriver;
 
   public RobotContainer() {
-    configureButtonBindings();
     configureSubsystems();
     configureCommands();
     configureJoysticks();
+    configureButtonBindings();
   }
 
   private void configureButtonBindings() {}
